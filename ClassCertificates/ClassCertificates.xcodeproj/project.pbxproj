@@ -173,6 +173,7 @@
 		E1FA908F14F9F18D00F3371D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -180,6 +181,7 @@
 		E1FA909014F9F18D00F3371D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -203,6 +205,7 @@
 				E1FA909014F9F18D00F3371D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
