@@ -9,9 +9,18 @@
 #include <stdio.h>
 #include <math.h>
 
-void cartesianToPolar(float x, float y, double *rPtr, double *thetaPtr) {
-    // Store the radians in the supplied address
-    *rPtr = sqrt(x * x + y * y);
+void cartesianToPolar(float x, float y, double *rPtr, double *thetaPtr)
+{
+    // Is rPtr non-NULL?
+    if (rPtr) {
+        // Store the radians in the supplied address
+        *rPtr = sqrt(x * x + y * y);
+    }
+    
+    if (!thetaPtr) {
+        // Skip the rest of the function
+        return;
+    }
     
     // Calculate theta
     float theta;
