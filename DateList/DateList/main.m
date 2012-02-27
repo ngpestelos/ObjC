@@ -18,21 +18,24 @@ int main (int argc, const char * argv[])
         NSDate *tomorrow = [now dateByAddingTimeInterval:24.0 * 60.0 * 60.0];
         NSDate *yesterday = [now dateByAddingTimeInterval:-24.0 * 60.0 * 60.0];
         
-        // Create an array containing all three (nil terminates the list)
-        NSArray *dateList = [NSArray arrayWithObjects:now, tomorrow, yesterday, nil];
+        // Create an empty array
+        NSMutableArray *dateList = [NSMutableArray array];
         
-        // How many dates are there?
-        NSLog(@"There are %lu dates", [dateList count]);
+        // Add the dates to the array
+        [dateList addObject:now];
+        [dateList addObject:tomorrow];
         
-        // Print a couple
-        NSLog(@"The first date is %@", [dateList objectAtIndex:0]);
-        NSLog(@"The third date is %@", [dateList objectAtIndex:2]);
+        // Put yesterday at the beginning of the list
+        [dateList insertObject:yesterday atIndex:0];
         
-        NSUInteger dateCount = [dateList count];
-        for (int i = 0; i < dateCount; i++) {
-            NSDate *d = [dateList objectAtIndex:i];
+        for (NSDate *d in dateList) {
             NSLog(@"Here is a date: %@", d);
         }
+        
+        // Remove yesterday
+        [dateList removeObjectAtIndex:0];
+        
+        NSLog(@"Now the first date is %@", [dateList objectAtIndex:0]);
         
     }
     return 0;
