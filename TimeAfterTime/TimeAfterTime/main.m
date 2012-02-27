@@ -35,6 +35,12 @@ int main (int argc, const char * argv[])
         double d = [now timeIntervalSinceDate:dateOfBirth];
         NSLog(@"I'm alive for %f seconds\n", d);
         
+        NSCalendar *cal = [NSCalendar currentCalendar];
+        NSUInteger day = [cal ordinalityOfUnit:NSDayCalendarUnit
+                                        inUnit:NSMonthCalendarUnit
+                                       forDate:now];
+        NSLog(@"This is the day %lu of the month", day);
+        
     }
     return 0;
 }
