@@ -1,0 +1,236 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E1FA91C014FB0B9000F3371D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1FA91BF14FB0B9000F3371D /* Foundation.framework */; };
+		E1FA91C314FB0B9000F3371D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E1FA91C214FB0B9000F3371D /* main.m */; };
+		E1FA91C714FB0B9000F3371D /* GetHostname.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = E1FA91C614FB0B9000F3371D /* GetHostname.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E1FA91B914FB0B9000F3371D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				E1FA91C714FB0B9000F3371D /* GetHostname.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E1FA91BB14FB0B9000F3371D /* GetHostname */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GetHostname; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1FA91BF14FB0B9000F3371D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E1FA91C214FB0B9000F3371D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E1FA91C514FB0B9000F3371D /* GetHostname-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GetHostname-Prefix.pch"; sourceTree = "<group>"; };
+		E1FA91C614FB0B9000F3371D /* GetHostname.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = GetHostname.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E1FA91B814FB0B9000F3371D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1FA91C014FB0B9000F3371D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E1FA91B014FB0B9000F3371D = {
+			isa = PBXGroup;
+			children = (
+				E1FA91C114FB0B9000F3371D /* GetHostname */,
+				E1FA91BE14FB0B9000F3371D /* Frameworks */,
+				E1FA91BC14FB0B9000F3371D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E1FA91BC14FB0B9000F3371D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1FA91BB14FB0B9000F3371D /* GetHostname */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1FA91BE14FB0B9000F3371D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E1FA91BF14FB0B9000F3371D /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E1FA91C114FB0B9000F3371D /* GetHostname */ = {
+			isa = PBXGroup;
+			children = (
+				E1FA91C214FB0B9000F3371D /* main.m */,
+				E1FA91C614FB0B9000F3371D /* GetHostname.1 */,
+				E1FA91C414FB0B9000F3371D /* Supporting Files */,
+			);
+			path = GetHostname;
+			sourceTree = "<group>";
+		};
+		E1FA91C414FB0B9000F3371D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E1FA91C514FB0B9000F3371D /* GetHostname-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E1FA91BA14FB0B9000F3371D /* GetHostname */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1FA91CA14FB0B9000F3371D /* Build configuration list for PBXNativeTarget "GetHostname" */;
+			buildPhases = (
+				E1FA91B714FB0B9000F3371D /* Sources */,
+				E1FA91B814FB0B9000F3371D /* Frameworks */,
+				E1FA91B914FB0B9000F3371D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GetHostname;
+			productName = GetHostname;
+			productReference = E1FA91BB14FB0B9000F3371D /* GetHostname */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E1FA91B214FB0B9000F3371D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = E1FA91B514FB0B9000F3371D /* Build configuration list for PBXProject "GetHostname" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E1FA91B014FB0B9000F3371D;
+			productRefGroup = E1FA91BC14FB0B9000F3371D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E1FA91BA14FB0B9000F3371D /* GetHostname */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E1FA91B714FB0B9000F3371D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1FA91C314FB0B9000F3371D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E1FA91C814FB0B9000F3371D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E1FA91C914FB0B9000F3371D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E1FA91CB14FB0B9000F3371D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GetHostname/GetHostname-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E1FA91CC14FB0B9000F3371D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GetHostname/GetHostname-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E1FA91B514FB0B9000F3371D /* Build configuration list for PBXProject "GetHostname" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1FA91C814FB0B9000F3371D /* Debug */,
+				E1FA91C914FB0B9000F3371D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1FA91CA14FB0B9000F3371D /* Build configuration list for PBXNativeTarget "GetHostname" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1FA91CB14FB0B9000F3371D /* Debug */,
+				E1FA91CC14FB0B9000F3371D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E1FA91B214FB0B9000F3371D /* Project object */;
+}
