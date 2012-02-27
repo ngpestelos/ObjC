@@ -28,6 +28,12 @@ int main (int argc, const char * argv[])
         NSLog(@"The first date is %@", [dateList objectAtIndex:0]);
         NSLog(@"The third date is %@", [dateList objectAtIndex:2]);
         
+        NSUInteger dateCount = [dateList count];
+        for (int i = 0; i < dateCount; i++) {
+            NSDate *d = [dateList objectAtIndex:i];
+            NSLog(@"Here is a date: %@", d);
+        }
+        
     }
     return 0;
 }
