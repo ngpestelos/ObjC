@@ -18,7 +18,7 @@
     // Is assets nil?
     if (!assets) {
         // Create the array
-        assets = [[NSMutableArray alloc] init];
+        assets = [[NSMutableSet alloc] init];
     }
     
     NSLog(@"Adding asset %@ to employee %d", a, employeeID);
