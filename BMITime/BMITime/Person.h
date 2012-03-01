@@ -16,8 +16,8 @@
 }
 
 // You will be able to set those instance variables using these methods
-- (void)setHeightInMeters:(float)h;
-- (void)setWeightInKilos:(int)w;
+@property float heightInMeters;
+@property int weightInKilos;
 
 // This method calculates the Body Mass Index
 - (float)bodyMassIndex;

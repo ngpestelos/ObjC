@@ -10,15 +10,8 @@
 
 @implementation Person
 
-- (void)setHeightInMeters:(float)h
-{
-    heightInMeters = h;
-}
-
-- (void)setWeightInKilos:(int)w
-{
-    weightInKilos = w;
-}
+@synthesize weightInKilos;
+@synthesize heightInMeters;
 
 - (float)bodyMassIndex
 {

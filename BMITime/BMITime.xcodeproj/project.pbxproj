@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E1302D4314FE5AFD00E379C6 /* Employee.m in Sources */ = {isa = PBXBuildFile; fileRef = E1302D4214FE5AFD00E379C6 /* Employee.m */; };
 		E1611FDA14FBCA340050891C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1611FD914FBCA340050891C /* Foundation.framework */; };
 		E1611FDD14FBCA340050891C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E1611FDC14FBCA340050891C /* main.m */; };
 		E1611FE114FBCA340050891C /* BMITime.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = E1611FE014FBCA340050891C /* BMITime.1 */; };
@@ -27,6 +28,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		E1302D4114FE5AFD00E379C6 /* Employee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Employee.h; sourceTree = "<group>"; };
+		E1302D4214FE5AFD00E379C6 /* Employee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Employee.m; sourceTree = "<group>"; };
 		E1611FD514FBCA340050891C /* BMITime */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BMITime; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1611FD914FBCA340050891C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E1611FDC14FBCA340050891C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -81,6 +84,8 @@
 				E1611FDE14FBCA340050891C /* Supporting Files */,
 				E1611FE714FBCA530050891C /* Person.h */,
 				E1611FE814FBCA530050891C /* Person.m */,
+				E1302D4114FE5AFD00E379C6 /* Employee.h */,
+				E1302D4214FE5AFD00E379C6 /* Employee.m */,
 			);
 			path = BMITime;
 			sourceTree = "<group>";
@@ -145,6 +150,7 @@
 			files = (
 				E1611FDD14FBCA340050891C /* main.m in Sources */,
 				E1611FE914FBCA530050891C /* Person.m in Sources */,
+				E1302D4314FE5AFD00E379C6 /* Employee.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,6 +241,7 @@
 				E1611FE614FBCA340050891C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
