@@ -23,6 +23,7 @@
     
     NSLog(@"Adding asset %@ to employee %d", a, employeeID);
     [assets addObject:a];
+    [a setHolder:self];
 }
 
 - (unsigned int)valueOfAssets
