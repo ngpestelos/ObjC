@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E16C1EA81500EB5E001FF05C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E16C1EA71500EB5E001FF05C /* UIKit.framework */; };
+		E16C1EAA1500EB5E001FF05C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E16C1EA91500EB5E001FF05C /* Foundation.framework */; };
+		E16C1EAC1500EB5E001FF05C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E16C1EAB1500EB5E001FF05C /* CoreGraphics.framework */; };
+		E16C1EB21500EB5E001FF05C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E16C1EB01500EB5E001FF05C /* InfoPlist.strings */; };
+		E16C1EB41500EB5E001FF05C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E16C1EB31500EB5E001FF05C /* main.m */; };
+		E16C1EB81500EB5E001FF05C /* BNRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E16C1EB71500EB5E001FF05C /* BNRAppDelegate.m */; };
+		E16C1EC01500EB5E001FF05C /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E16C1EBF1500EB5E001FF05C /* SenTestingKit.framework */; };
+		E16C1EC11500EB5E001FF05C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E16C1EA71500EB5E001FF05C /* UIKit.framework */; };
+		E16C1EC21500EB5E001FF05C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E16C1EA91500EB5E001FF05C /* Foundation.framework */; };
+		E16C1ECA1500EB5E001FF05C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E16C1EC81500EB5E001FF05C /* InfoPlist.strings */; };
+		E16C1ECD1500EB5E001FF05C /* iTahDoodleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E16C1ECC1500EB5E001FF05C /* iTahDoodleTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E16C1EC31500EB5E001FF05C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E16C1E9A1500EB5E001FF05C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E16C1EA21500EB5E001FF05C;
+			remoteInfo = iTahDoodle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E16C1EA31500EB5E001FF05C /* iTahDoodle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iTahDoodle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E16C1EA71500EB5E001FF05C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E16C1EA91500EB5E001FF05C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E16C1EAB1500EB5E001FF05C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E16C1EAF1500EB5E001FF05C /* iTahDoodle-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iTahDoodle-Info.plist"; sourceTree = "<group>"; };
+		E16C1EB11500EB5E001FF05C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E16C1EB31500EB5E001FF05C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E16C1EB51500EB5E001FF05C /* iTahDoodle-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iTahDoodle-Prefix.pch"; sourceTree = "<group>"; };
+		E16C1EB61500EB5E001FF05C /* BNRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BNRAppDelegate.h; sourceTree = "<group>"; };
+		E16C1EB71500EB5E001FF05C /* BNRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BNRAppDelegate.m; sourceTree = "<group>"; };
+		E16C1EBE1500EB5E001FF05C /* iTahDoodleTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iTahDoodleTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E16C1EBF1500EB5E001FF05C /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		E16C1EC71500EB5E001FF05C /* iTahDoodleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iTahDoodleTests-Info.plist"; sourceTree = "<group>"; };
+		E16C1EC91500EB5E001FF05C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E16C1ECB1500EB5E001FF05C /* iTahDoodleTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iTahDoodleTests.h; sourceTree = "<group>"; };
+		E16C1ECC1500EB5E001FF05C /* iTahDoodleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iTahDoodleTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E16C1EA01500EB5E001FF05C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E16C1EA81500EB5E001FF05C /* UIKit.framework in Frameworks */,
+				E16C1EAA1500EB5E001FF05C /* Foundation.framework in Frameworks */,
+				E16C1EAC1500EB5E001FF05C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E16C1EBA1500EB5E001FF05C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E16C1EC01500EB5E001FF05C /* SenTestingKit.framework in Frameworks */,
+				E16C1EC11500EB5E001FF05C /* UIKit.framework in Frameworks */,
+				E16C1EC21500EB5E001FF05C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E16C1E981500EB5E001FF05C = {
+			isa = PBXGroup;
+			children = (
+				E16C1EAD1500EB5E001FF05C /* iTahDoodle */,
+				E16C1EC51500EB5E001FF05C /* iTahDoodleTests */,
+				E16C1EA61500EB5E001FF05C /* Frameworks */,
+				E16C1EA41500EB5E001FF05C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E16C1EA41500EB5E001FF05C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E16C1EA31500EB5E001FF05C /* iTahDoodle.app */,
+				E16C1EBE1500EB5E001FF05C /* iTahDoodleTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E16C1EA61500EB5E001FF05C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E16C1EA71500EB5E001FF05C /* UIKit.framework */,
+				E16C1EA91500EB5E001FF05C /* Foundation.framework */,
+				E16C1EAB1500EB5E001FF05C /* CoreGraphics.framework */,
+				E16C1EBF1500EB5E001FF05C /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E16C1EAD1500EB5E001FF05C /* iTahDoodle */ = {
+			isa = PBXGroup;
+			children = (
+				E16C1EB61500EB5E001FF05C /* BNRAppDelegate.h */,
+				E16C1EB71500EB5E001FF05C /* BNRAppDelegate.m */,
+				E16C1EAE1500EB5E001FF05C /* Supporting Files */,
+			);
+			path = iTahDoodle;
+			sourceTree = "<group>";
+		};
+		E16C1EAE1500EB5E001FF05C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E16C1EAF1500EB5E001FF05C /* iTahDoodle-Info.plist */,
+				E16C1EB01500EB5E001FF05C /* InfoPlist.strings */,
+				E16C1EB31500EB5E001FF05C /* main.m */,
+				E16C1EB51500EB5E001FF05C /* iTahDoodle-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E16C1EC51500EB5E001FF05C /* iTahDoodleTests */ = {
+			isa = PBXGroup;
+			children = (
+				E16C1ECB1500EB5E001FF05C /* iTahDoodleTests.h */,
+				E16C1ECC1500EB5E001FF05C /* iTahDoodleTests.m */,
+				E16C1EC61500EB5E001FF05C /* Supporting Files */,
+			);
+			path = iTahDoodleTests;
+			sourceTree = "<group>";
+		};
+		E16C1EC61500EB5E001FF05C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E16C1EC71500EB5E001FF05C /* iTahDoodleTests-Info.plist */,
+				E16C1EC81500EB5E001FF05C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E16C1EA21500EB5E001FF05C /* iTahDoodle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E16C1ED01500EB5E001FF05C /* Build configuration list for PBXNativeTarget "iTahDoodle" */;
+			buildPhases = (
+				E16C1E9F1500EB5E001FF05C /* Sources */,
+				E16C1EA01500EB5E001FF05C /* Frameworks */,
+				E16C1EA11500EB5E001FF05C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iTahDoodle;
+			productName = iTahDoodle;
+			productReference = E16C1EA31500EB5E001FF05C /* iTahDoodle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E16C1EBD1500EB5E001FF05C /* iTahDoodleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E16C1ED31500EB5E001FF05C /* Build configuration list for PBXNativeTarget "iTahDoodleTests" */;
+			buildPhases = (
+				E16C1EB91500EB5E001FF05C /* Sources */,
+				E16C1EBA1500EB5E001FF05C /* Frameworks */,
+				E16C1EBB1500EB5E001FF05C /* Resources */,
+				E16C1EBC1500EB5E001FF05C /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E16C1EC41500EB5E001FF05C /* PBXTargetDependency */,
+			);
+			name = iTahDoodleTests;
+			productName = iTahDoodleTests;
+			productReference = E16C1EBE1500EB5E001FF05C /* iTahDoodleTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E16C1E9A1500EB5E001FF05C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = E16C1E9D1500EB5E001FF05C /* Build configuration list for PBXProject "iTahDoodle" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E16C1E981500EB5E001FF05C;
+			productRefGroup = E16C1EA41500EB5E001FF05C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E16C1EA21500EB5E001FF05C /* iTahDoodle */,
+				E16C1EBD1500EB5E001FF05C /* iTahDoodleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E16C1EA11500EB5E001FF05C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E16C1EB21500EB5E001FF05C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E16C1EBB1500EB5E001FF05C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E16C1ECA1500EB5E001FF05C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E16C1EBC1500EB5E001FF05C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E16C1E9F1500EB5E001FF05C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E16C1EB41500EB5E001FF05C /* main.m in Sources */,
+				E16C1EB81500EB5E001FF05C /* BNRAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E16C1EB91500EB5E001FF05C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E16C1ECD1500EB5E001FF05C /* iTahDoodleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E16C1EC41500EB5E001FF05C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E16C1EA21500EB5E001FF05C /* iTahDoodle */;
+			targetProxy = E16C1EC31500EB5E001FF05C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E16C1EB01500EB5E001FF05C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E16C1EB11500EB5E001FF05C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E16C1EC81500EB5E001FF05C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E16C1EC91500EB5E001FF05C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E16C1ECE1500EB5E001FF05C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E16C1ECF1500EB5E001FF05C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E16C1ED11500EB5E001FF05C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iTahDoodle/iTahDoodle-Prefix.pch";
+				INFOPLIST_FILE = "iTahDoodle/iTahDoodle-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E16C1ED21500EB5E001FF05C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iTahDoodle/iTahDoodle-Prefix.pch";
+				INFOPLIST_FILE = "iTahDoodle/iTahDoodle-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E16C1ED41500EB5E001FF05C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iTahDoodle.app/iTahDoodle";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iTahDoodle/iTahDoodle-Prefix.pch";
+				INFOPLIST_FILE = "iTahDoodleTests/iTahDoodleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		E16C1ED51500EB5E001FF05C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iTahDoodle.app/iTahDoodle";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iTahDoodle/iTahDoodle-Prefix.pch";
+				INFOPLIST_FILE = "iTahDoodleTests/iTahDoodleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E16C1E9D1500EB5E001FF05C /* Build configuration list for PBXProject "iTahDoodle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E16C1ECE1500EB5E001FF05C /* Debug */,
+				E16C1ECF1500EB5E001FF05C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E16C1ED01500EB5E001FF05C /* Build configuration list for PBXNativeTarget "iTahDoodle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E16C1ED11500EB5E001FF05C /* Debug */,
+				E16C1ED21500EB5E001FF05C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E16C1ED31500EB5E001FF05C /* Build configuration list for PBXNativeTarget "iTahDoodleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E16C1ED41500EB5E001FF05C /* Debug */,
+				E16C1ED51500EB5E001FF05C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E16C1E9A1500EB5E001FF05C /* Project object */;
+}
