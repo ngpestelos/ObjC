@@ -1,0 +1,236 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E11024A5150226AA008247C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E11024A4150226AA008247C1 /* Foundation.framework */; };
+		E11024A8150226AA008247C1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E11024A7150226AA008247C1 /* main.m */; };
+		E11024AC150226AA008247C1 /* bitwize.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = E11024AB150226AA008247C1 /* bitwize.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E110249E150226AA008247C1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				E11024AC150226AA008247C1 /* bitwize.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E11024A0150226AA008247C1 /* bitwize */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = bitwize; sourceTree = BUILT_PRODUCTS_DIR; };
+		E11024A4150226AA008247C1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E11024A7150226AA008247C1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E11024AA150226AA008247C1 /* bitwize-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "bitwize-Prefix.pch"; sourceTree = "<group>"; };
+		E11024AB150226AA008247C1 /* bitwize.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = bitwize.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E110249D150226AA008247C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E11024A5150226AA008247C1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E1102495150226AA008247C1 = {
+			isa = PBXGroup;
+			children = (
+				E11024A6150226AA008247C1 /* bitwize */,
+				E11024A3150226AA008247C1 /* Frameworks */,
+				E11024A1150226AA008247C1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E11024A1150226AA008247C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E11024A0150226AA008247C1 /* bitwize */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E11024A3150226AA008247C1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E11024A4150226AA008247C1 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E11024A6150226AA008247C1 /* bitwize */ = {
+			isa = PBXGroup;
+			children = (
+				E11024A7150226AA008247C1 /* main.m */,
+				E11024AB150226AA008247C1 /* bitwize.1 */,
+				E11024A9150226AA008247C1 /* Supporting Files */,
+			);
+			path = bitwize;
+			sourceTree = "<group>";
+		};
+		E11024A9150226AA008247C1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E11024AA150226AA008247C1 /* bitwize-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E110249F150226AA008247C1 /* bitwize */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E11024AF150226AA008247C1 /* Build configuration list for PBXNativeTarget "bitwize" */;
+			buildPhases = (
+				E110249C150226AA008247C1 /* Sources */,
+				E110249D150226AA008247C1 /* Frameworks */,
+				E110249E150226AA008247C1 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = bitwize;
+			productName = bitwize;
+			productReference = E11024A0150226AA008247C1 /* bitwize */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E1102497150226AA008247C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = E110249A150226AA008247C1 /* Build configuration list for PBXProject "bitwize" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E1102495150226AA008247C1;
+			productRefGroup = E11024A1150226AA008247C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E110249F150226AA008247C1 /* bitwize */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E110249C150226AA008247C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E11024A8150226AA008247C1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E11024AD150226AA008247C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E11024AE150226AA008247C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E11024B0150226AA008247C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "bitwize/bitwize-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E11024B1150226AA008247C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "bitwize/bitwize-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E110249A150226AA008247C1 /* Build configuration list for PBXProject "bitwize" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E11024AD150226AA008247C1 /* Debug */,
+				E11024AE150226AA008247C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E11024AF150226AA008247C1 /* Build configuration list for PBXNativeTarget "bitwize" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E11024B0150226AA008247C1 /* Debug */,
+				E11024B1150226AA008247C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E1102497150226AA008247C1 /* Project object */;
+}
