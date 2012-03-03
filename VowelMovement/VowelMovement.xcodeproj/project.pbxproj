@@ -1,0 +1,236 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E11024881501F861008247C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E11024871501F861008247C1 /* Foundation.framework */; };
+		E110248B1501F861008247C1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E110248A1501F861008247C1 /* main.m */; };
+		E110248F1501F861008247C1 /* VowelMovement.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = E110248E1501F861008247C1 /* VowelMovement.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E11024811501F861008247C1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				E110248F1501F861008247C1 /* VowelMovement.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E11024831501F861008247C1 /* VowelMovement */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = VowelMovement; sourceTree = BUILT_PRODUCTS_DIR; };
+		E11024871501F861008247C1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E110248A1501F861008247C1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E110248D1501F861008247C1 /* VowelMovement-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VowelMovement-Prefix.pch"; sourceTree = "<group>"; };
+		E110248E1501F861008247C1 /* VowelMovement.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = VowelMovement.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E11024801501F861008247C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E11024881501F861008247C1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E11024781501F861008247C1 = {
+			isa = PBXGroup;
+			children = (
+				E11024891501F861008247C1 /* VowelMovement */,
+				E11024861501F861008247C1 /* Frameworks */,
+				E11024841501F861008247C1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E11024841501F861008247C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E11024831501F861008247C1 /* VowelMovement */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E11024861501F861008247C1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E11024871501F861008247C1 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E11024891501F861008247C1 /* VowelMovement */ = {
+			isa = PBXGroup;
+			children = (
+				E110248A1501F861008247C1 /* main.m */,
+				E110248E1501F861008247C1 /* VowelMovement.1 */,
+				E110248C1501F861008247C1 /* Supporting Files */,
+			);
+			path = VowelMovement;
+			sourceTree = "<group>";
+		};
+		E110248C1501F861008247C1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E110248D1501F861008247C1 /* VowelMovement-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E11024821501F861008247C1 /* VowelMovement */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E11024921501F861008247C1 /* Build configuration list for PBXNativeTarget "VowelMovement" */;
+			buildPhases = (
+				E110247F1501F861008247C1 /* Sources */,
+				E11024801501F861008247C1 /* Frameworks */,
+				E11024811501F861008247C1 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VowelMovement;
+			productName = VowelMovement;
+			productReference = E11024831501F861008247C1 /* VowelMovement */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E110247A1501F861008247C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = E110247D1501F861008247C1 /* Build configuration list for PBXProject "VowelMovement" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E11024781501F861008247C1;
+			productRefGroup = E11024841501F861008247C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E11024821501F861008247C1 /* VowelMovement */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E110247F1501F861008247C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E110248B1501F861008247C1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E11024901501F861008247C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E11024911501F861008247C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E11024931501F861008247C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VowelMovement/VowelMovement-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E11024941501F861008247C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VowelMovement/VowelMovement-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E110247D1501F861008247C1 /* Build configuration list for PBXProject "VowelMovement" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E11024901501F861008247C1 /* Debug */,
+				E11024911501F861008247C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E11024921501F861008247C1 /* Build configuration list for PBXNativeTarget "VowelMovement" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E11024931501F861008247C1 /* Debug */,
+				E11024941501F861008247C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E110247A1501F861008247C1 /* Project object */;
+}
