@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Affirmation' target in the 'Affirmation' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
