@@ -1,0 +1,242 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E11024681501F66E008247C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E11024671501F66E008247C1 /* Foundation.framework */; };
+		E110246B1501F66E008247C1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E110246A1501F66E008247C1 /* main.m */; };
+		E110246F1501F66E008247C1 /* VowelCounter.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = E110246E1501F66E008247C1 /* VowelCounter.1 */; };
+		E11024771501F690008247C1 /* NSString+VowelCounting.m in Sources */ = {isa = PBXBuildFile; fileRef = E11024761501F690008247C1 /* NSString+VowelCounting.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E11024611501F66E008247C1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				E110246F1501F66E008247C1 /* VowelCounter.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E11024631501F66E008247C1 /* VowelCounter */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = VowelCounter; sourceTree = BUILT_PRODUCTS_DIR; };
+		E11024671501F66E008247C1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E110246A1501F66E008247C1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E110246D1501F66E008247C1 /* VowelCounter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VowelCounter-Prefix.pch"; sourceTree = "<group>"; };
+		E110246E1501F66E008247C1 /* VowelCounter.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = VowelCounter.1; sourceTree = "<group>"; };
+		E11024751501F690008247C1 /* NSString+VowelCounting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+VowelCounting.h"; sourceTree = "<group>"; };
+		E11024761501F690008247C1 /* NSString+VowelCounting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+VowelCounting.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E11024601501F66E008247C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E11024681501F66E008247C1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E11024581501F66E008247C1 = {
+			isa = PBXGroup;
+			children = (
+				E11024691501F66E008247C1 /* VowelCounter */,
+				E11024661501F66E008247C1 /* Frameworks */,
+				E11024641501F66E008247C1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E11024641501F66E008247C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E11024631501F66E008247C1 /* VowelCounter */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E11024661501F66E008247C1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E11024671501F66E008247C1 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E11024691501F66E008247C1 /* VowelCounter */ = {
+			isa = PBXGroup;
+			children = (
+				E110246A1501F66E008247C1 /* main.m */,
+				E110246E1501F66E008247C1 /* VowelCounter.1 */,
+				E110246C1501F66E008247C1 /* Supporting Files */,
+				E11024751501F690008247C1 /* NSString+VowelCounting.h */,
+				E11024761501F690008247C1 /* NSString+VowelCounting.m */,
+			);
+			path = VowelCounter;
+			sourceTree = "<group>";
+		};
+		E110246C1501F66E008247C1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E110246D1501F66E008247C1 /* VowelCounter-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E11024621501F66E008247C1 /* VowelCounter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E11024721501F66E008247C1 /* Build configuration list for PBXNativeTarget "VowelCounter" */;
+			buildPhases = (
+				E110245F1501F66E008247C1 /* Sources */,
+				E11024601501F66E008247C1 /* Frameworks */,
+				E11024611501F66E008247C1 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VowelCounter;
+			productName = VowelCounter;
+			productReference = E11024631501F66E008247C1 /* VowelCounter */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E110245A1501F66E008247C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = E110245D1501F66E008247C1 /* Build configuration list for PBXProject "VowelCounter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E11024581501F66E008247C1;
+			productRefGroup = E11024641501F66E008247C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E11024621501F66E008247C1 /* VowelCounter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E110245F1501F66E008247C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E110246B1501F66E008247C1 /* main.m in Sources */,
+				E11024771501F690008247C1 /* NSString+VowelCounting.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E11024701501F66E008247C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E11024711501F66E008247C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E11024731501F66E008247C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VowelCounter/VowelCounter-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E11024741501F66E008247C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VowelCounter/VowelCounter-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E110245D1501F66E008247C1 /* Build configuration list for PBXProject "VowelCounter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E11024701501F66E008247C1 /* Debug */,
+				E11024711501F66E008247C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E11024721501F66E008247C1 /* Build configuration list for PBXNativeTarget "VowelCounter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E11024731501F66E008247C1 /* Debug */,
+				E11024741501F66E008247C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E110245A1501F66E008247C1 /* Project object */;
+}
